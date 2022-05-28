@@ -11,7 +11,7 @@ os.system("title About me")
 
 ReadMe.init()
 
-def ReadMe():
+def README():
     username = "speezy"
     age = "16"
     location = "France"
@@ -32,7 +32,7 @@ def ReadMe():
     input("Press enter when you're done reading")
     
 if __name__ == "__main__":
-    ReadMe()
+    README()
 ```
 ```python
 Output: 

@@ -1,16 +1,44 @@
-### Hi there 👋
+```python
+from GitHub import ReadMe
+import random, sys, os
 
-<!--
-**speezyw/speezyw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+if sys.platform == "linux":
+    os.system("clear")
+else:
+    os.system("cls")
+os.system("mode con: cols=90 lines=30")
+os.system("title About me")
 
-Here are some ideas to get you started:
+ReadMe.init()
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+def ReadMe():
+    username = "speezy"
+    age = "16"
+    location = "France"
+    programming_language = "Python"
+    infos = {
+        "Discord Server": "https://discord.gg/55yy7skbQ4",
+        "YouTube Channel": "https://youtube.com/c/speezyw"
+    }
+    contacts = [
+        "speezy#4444",
+        "@notspeezy",
+        "@hzmicid"
+    ]
+    print("Hi my name is " + username + " and I am " + age + " years old")
+    print("I live in " + location)
+    print("Self learner of " + programming_language)
+    print("You can contact me here: " + random.choice(contacts))
+    input("Press enter when you're done reading")
+    
+if __name__ == "__main__":
+    ReadMe()
+```
+```python
+Output: 
+Hi my name is speezy and I am 16 years old
+I live in France
+Self learner of Python
+You can catch me here: speezy#4444
+Press enter when you're done reading
+```

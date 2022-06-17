@@ -1,3 +1,5 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=speezyw&label=Profile%20views&color=0e75b6&style=flat" alt="speezyw" /> </p>
+
 ```python
 from GitHub import ReadMe
 import random, sys, os

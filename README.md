@@ -4,12 +4,7 @@
 from GitHub import ReadMe
 import random, sys, os
 
-if sys.platform == "linux":
-    os.system("clear")
-else:
-    os.system("cls")
-os.system("mode con: cols=90 lines=30")
-os.system("title About me")
+os.system("clear") if sys.platform == "linux" else os.system("cls")
 
 ReadMe.init()
 
@@ -34,6 +29,7 @@ def README():
     input("Press enter when you're done reading")
     
 if __name__ == "__main__":
+    os.system("title About me & mode con: cols=90 lines=30")
     README()
 ```
 ```python

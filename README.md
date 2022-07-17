@@ -18,7 +18,7 @@ def README():
         "YouTube Channel": "https://youtube.com/c/speezyw"
     }
     contacts = [
-        "speezy#4444",
+        "sp#5084",
         "@notspeezy",
         "@hzmicid"
     ]

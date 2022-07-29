@@ -22,7 +22,7 @@ def README():
         "@notspeezy",
         "@hzmicid"
     ]
-    print("Hi my name is " + username + " and I am " + age + " years old")
+    print("Hi my name is {} and I am {} yo".format(username, age))
     print("I live in " + location)
     print("Self learner of " + programming_language)
     print("You can contact me here: " + random.choice(contacts))

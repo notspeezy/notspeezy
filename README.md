@@ -16,7 +16,7 @@ class ReadMe:
     def About(self):
         contacts = {
             "discord_server": "https://discord.gg/hcaptcha",
-            "youTube_channel": "https://youtube.com/c/speezyw",
+            "youtube_channel": "https://youtube.com/c/speezyw",
             "contacts": [
                 "sp#5084 on discord",
                 "@notspeezy on telegram",
@@ -28,7 +28,7 @@ class ReadMe:
         print(f"Self learner of {self.language}")
         print("Where could you contact me?")
         print(f"Discord Server: {contacts['discord_server']}")
-        print(f"YouTube Channel: {contacts['youTube_channel']}")
+        print(f"YouTube Channel: {contacts['youtube_channel']}")
         print(f"Social: {random.choice(contacts['contacts'])}")
         input("Press enter when you're done reading.")
 

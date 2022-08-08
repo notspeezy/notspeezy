@@ -1,4 +1,4 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=speezyw&label=Profile%20views&color=0e75b6&style=flat" alt="speezyw" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=speezyw&label=Profile%20views&color=321CBA&style=for-the-badge" alt="speezyw" /> </p>
 
 ```python
 from GitHub import ReadMe
